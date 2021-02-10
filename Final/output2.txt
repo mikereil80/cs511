@@ -1,0 +1,108 @@
+5 Felin 1)  mutex>0        
+5 Felin 1)  mutex = (mutex 
+Process Statement          mutex      
+5 Felin 1)  mutexFelines>0 0          
+5 Felin 1)  mutexFelines = 0          
+Process Statement          mutex      mutexFelin 
+5 Felin 1)  felines = (fel 0          0          
+Process Statement          felines    mutex      mutexFelin 
+5 Felin 1)  felines==1     1          0          0          
+5 Felin 1)  mutexMice>0    1          0          0          
+5 Felin 1)  mutexMice = (m 1          0          0          
+Process Statement          felines    mutex      mutexFelin mutexMice  
+5 Felin 1)  mutexFelines = 1          0          0          0          
+5 Felin 1)  mutex = (mutex 1          0          1          0          
+5 Felin 1)  assert((mice== 1          1          1          0          
+5 Felin 1)  assert((feline 1          1          1          0          
+5 Felin 1)  mutexFelines>0 1          1          1          0          
+5 Felin 1)  mutexFelines = 1          1          1          0          
+5 Felin 1)  felines = (fel 1          1          0          0          
+5 Felin 1)  felines==0     0          1          0          0          
+5 Felin 1)  mutexMice = (m 0          1          0          0          
+5 Felin 1)  mutexFelines = 0          1          0          1          
+ 15: proc 5 terminates
+4 Felin 1)  mutex>0        0          1          1          1          
+4 Felin 1)  mutex = (mutex 0          1          1          1          
+4 Felin 1)  mutexFelines>0 0          0          1          1          
+4 Felin 1)  mutexFelines = 0          0          1          1          
+4 Felin 1)  felines = (fel 0          0          0          1          
+4 Felin 1)  felines==1     1          0          0          1          
+4 Felin 1)  mutexMice>0    1          0          0          1          
+4 Felin 1)  mutexMice = (m 1          0          0          1          
+4 Felin 1)  mutexFelines = 1          0          0          0          
+4 Felin 1)  mutex = (mutex 1          0          1          0          
+Process Statement          felines    mutex      mutexFelin mutexMice  
+4 Felin 1)  assert((mice== 1          1          1          0          
+4 Felin 1)  assert((feline 1          1          1          0          
+4 Felin 1)  mutexFelines>0 1          1          1          0          
+4 Felin 1)  mutexFelines = 1          1          1          0          
+4 Felin 1)  felines = (fel 1          1          0          0          
+4 Felin 1)  felines==0     0          1          0          0          
+4 Felin 1)  mutexMice = (m 0          1          0          0          
+4 Felin 1)  mutexFelines = 0          1          0          1          
+ 30: proc 4 terminates
+3 Felin 1)  mutex>0        0          1          1          1          
+3 Felin 1)  mutex = (mutex 0          1          1          1          
+3 Felin 1)  mutexFelines>0 0          0          1          1          
+3 Felin 1)  mutexFelines = 0          0          1          1          
+3 Felin 1)  felines = (fel 0          0          0          1          
+3 Felin 1)  felines==1     1          0          0          1          
+3 Felin 1)  mutexMice>0    1          0          0          1          
+3 Felin 1)  mutexMice = (m 1          0          0          1          
+3 Felin 1)  mutexFelines = 1          0          0          0          
+3 Felin 1)  mutex = (mutex 1          0          1          0          
+3 Felin 1)  assert((mice== 1          1          1          0          
+3 Felin 1)  assert((feline 1          1          1          0          
+Process Statement          felines    mutex      mutexFelin mutexMice  
+3 Felin 1)  mutexFelines>0 1          1          1          0          
+3 Felin 1)  mutexFelines = 1          1          1          0          
+3 Felin 1)  felines = (fel 1          1          0          0          
+3 Felin 1)  felines==0     0          1          0          0          
+3 Felin 1)  mutexMice = (m 0          1          0          0          
+3 Felin 1)  mutexFelines = 0          1          0          1          
+ 45: proc 3 terminates
+2 Mouse 1)  mutex>0        0          1          1          1          
+2 Mouse 1)  mutex = (mutex 0          1          1          1          
+2 Mouse 1)  mutexMice>0    0          0          1          1          
+2 Mouse 1)  mutexMice = (m 0          0          1          1          
+2 Mouse 1)  mice = (mice+1 0          0          1          0          
+Process Statement          felines    mice       mutex      mutexFelin mutexMice  
+2 Mouse 1)  mice==1        0          1          0          1          0          
+2 Mouse 1)  mutexFelines>0 0          1          0          1          0          
+2 Mouse 1)  mutexFelines = 0          1          0          1          0          
+2 Mouse 1)  mutexMice = (m 0          1          0          0          0          
+2 Mouse 1)  mutex = (mutex 0          1          0          0          1          
+2 Mouse 1)  assert((feline 0          1          1          0          1          
+2 Mouse 1)  assert((mice<3 0          1          1          0          1          
+1 Mouse 1)  mutex>0        0          1          1          0          1          
+1 Mouse 1)  mutex = (mutex 0          1          1          0          1          
+1 Mouse 1)  mutexMice>0    0          1          0          0          1          
+1 Mouse 1)  mutexMice = (m 0          1          0          0          1          
+1 Mouse 1)  mice = (mice+1 0          1          0          0          0          
+1 Mouse 1)  else           0          2          0          0          0          
+1 Mouse 1)  1              0          2          0          0          0          
+1 Mouse 1)  mutexMice = (m 0          2          0          0          0          
+1 Mouse 1)  mutex = (mutex 0          2          0          0          1          
+1 Mouse 1)  assert((feline 0          2          1          0          1          
+1 Mouse 1)  assert((mice<3 0          2          1          0          1          
+0 Mouse 1)  mutex>0        0          2          1          0          1          
+0 Mouse 1)  mutex = (mutex 0          2          1          0          1          
+Process Statement          felines    mice       mutex      mutexFelin mutexMice  
+0 Mouse 1)  mutexMice>0    0          2          0          0          1          
+0 Mouse 1)  mutexMice = (m 0          2          0          0          1          
+0 Mouse 1)  mice = (mice+1 0          2          0          0          0          
+0 Mouse 1)  else           0          3          0          0          0          
+0 Mouse 1)  1              0          3          0          0          0          
+0 Mouse 1)  mutexMice = (m 0          3          0          0          0          
+2 Mouse 1)  mutexMice>0    0          3          0          0          1          
+2 Mouse 1)  mutexMice = (m 0          3          0          0          1          
+0 Mouse 1)  mutex = (mutex 0          3          0          0          0          
+0 Mouse 1)  assert((feline 0          3          1          0          0          
+spin: zoo2.pml:32, Error: assertion violated
+spin: text of failed assertion: assert((mice<3))
+#processes: 3
+ 73:	proc  2 (Mouse:1) zoo2.pml:35 (state 29)
+ 73:	proc  1 (Mouse:1) zoo2.pml:8 (state 28)
+ 73:	proc  0 (Mouse:1) zoo2.pml:32 (state 24)
+6 processes created
+Exit-Status 0
